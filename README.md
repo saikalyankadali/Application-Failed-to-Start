@@ -7,7 +7,7 @@ It was resolved with following steps,
 
 Check what processes are running at available ports
 
-netstat -ao |find /i "listening"
+**netstat -ao |find /i "listening"**
 
 We get following
 
@@ -20,4 +20,6 @@ i.e. Port Numbers and what Process Id they are listening to
 
 Stop process running at your port number(In this case it is 8080 & Process Id is 12704)
 
-Taskkill /F /IM 12704 (Note: Mention correct Process Id)
+**Taskkill /F /IM 12704 **
+
+(Note: Mention correct Process Id)
